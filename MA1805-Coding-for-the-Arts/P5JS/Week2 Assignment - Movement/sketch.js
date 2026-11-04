@@ -21,7 +21,7 @@ let MousePositionY;
 
 
 function setup() {
-  createCanvas(200, 200);
+  createCanvas(windowWidth, windowHeight);
   background(125);
 }
 
