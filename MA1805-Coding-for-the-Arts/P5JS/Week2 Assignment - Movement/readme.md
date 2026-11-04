@@ -10,6 +10,6 @@ The challenge I faced initially is that I was simply doing
 ++BallX / --BallY
 Depending on if the mouse was to the left / below.
 
-The issue this had is it would cause the ball to move in a strictly within 8 axis, 
+The issue this had is it would cause the ball to move strictly within 8 axis, 
 
-To fix this I calculated the sqrt (Square Root )of the X and Y distance, as diagonal distances are longer than just Horizontal or Vertical. This allows me to have an accurate constant distance for the speed towards cursour calculation rather than relying purely on distance of just X and Y limiting to a specific axis.
+To fix this I calculated the sqrt (Square Root ) of the X and Y distance, as diagonal distances are longer than just Horizontal or Vertical. This allows me to have an accurate constant distance for the speed towards cursor calculation rather than relying purely on distance of just X and Y limiting to a specific axis.
